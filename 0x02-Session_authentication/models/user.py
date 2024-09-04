@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Defines User module
 """
-impor  hashlib
+import  hashlib
 from models.base import Base
 
 
