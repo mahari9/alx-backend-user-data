@@ -71,6 +71,7 @@ def update_password(email: str, reset_token: str, new_password: str) -> None:
     print(res.status_code, res.text)  # Log the response for debugging
     assert res.status_code == 200
 
+
 EMAIL = "guillaume@holberton.io"
 PASSWD = "b4l0u"
 NEW_PASSWD = "t4rt1fl3tt3"
